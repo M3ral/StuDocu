@@ -10,13 +10,13 @@ For this challenge I've used:
 
 I completed all the requirements of the challenge and covered most part of the tests for the components and the redux store.
 
-I started by setting up the reducer and the actions of the app. 
+I started by setting up the reducer,the actions and the store of the app. 
 After finishing with this task I moved to the layout of the page. I created PageLayout, a component that handles the positioning and responsiveness.  
 
-Next thing to do was to build the components needed for the for this app. The biggest challenge was setting up the tooltip at the right positions. 
+Next thing to do was to build the components needed for this app. The biggest challenge I had, was to set up the tooltip at the right positions. 
 
 Small extra features that I added:
-    You can choose 4 different positions of the tooltip
+    You can choose 4 different positions of the tooltip (top, bottom, left and right)
     The form has a field validation and the submit button enables/disables according to the form fields validation.
 
 ## Available Scripts
