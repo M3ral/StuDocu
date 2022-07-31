@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {PageLayout} from "./components/PageLayout/PageLayout";
+import {Feedback} from "./components/Feedback/Feedback";
+import {Route, Routes} from "react-router-dom";
+import {UpdateQaA} from "./components/QaAForm/UpdateQaA";
+import {Overview} from "./section/Overview";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <PageLayout
+      header={
+        <h1>The awesome Q/A tool</h1>
+      }
+      content={
+        <Routes>
+          <Route path="/" element={
+            <Overview/>
+          }/>
+          <Route path=":qaId" element={
+            <UpdateQaA/>
+          }/>
+        </Routes>
+      }
+      sidebar={<Feedback/>}
+    />
+  )
 }
 
 export default App;

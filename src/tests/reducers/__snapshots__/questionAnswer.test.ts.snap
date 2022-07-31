@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers/questionAnswer should handle a new Q&A being added to an empty list: add new question 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "answer": "Yes",
+      "id": Any<String>,
+      "question": "Is this a question?",
+    },
+  ],
+  "status": null,
+}
+`;

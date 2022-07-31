@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# StuDocu Frontend challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this challenge I've used:
+- React;
+- TypeScript;
+- Redux toolkit;
+- React Router v6;
+- SCSS;
+- React Testing Library and Jest for the unit tests;
+
+I completed all the requirements of the challenge and covered most part of the tests for the components and the redux store.
+
+I started by setting up the reducer and the actions of the app. 
+After finishing with this task I moved to the layout of the page. I created PageLayout, a component that handles the positioning and responsiveness.  
+
+Next thing to do was to build the components needed for the for this app. The biggest challenge was setting up the tooltip at the right positions. 
+
+Small extra features that I added:
+    You can choose 4 different positions of the tooltip
+    The form has a field validation and the submit button enables/disables according to the form fields validation.
 
 ## Available Scripts
 
@@ -18,29 +35,3 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

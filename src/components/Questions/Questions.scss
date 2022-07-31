@@ -1,0 +1,13 @@
+.accordion {
+  padding: 15px;
+  border: 1px solid black;
+
+  &:only-child {
+    border-radius: 8px;
+  }
+
+  &:not(:only-child):first-child {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+}
